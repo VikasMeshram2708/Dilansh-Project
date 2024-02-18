@@ -35,7 +35,7 @@ export default function BottomNav() {
     console.log("paht", pathname);
   }, []);
   return (
-    <section className="grid font-Poppins gap-2 sm:grid-cols-6 grid-cols-3 items-center max-w-[90%] mx-auto mt-5">
+    <section className="grid gap-2 sm:grid-cols-6 grid-cols-3 items-center max-w-[90%] mx-auto mt-5">
       {navLinks?.map((item) => {
         return (
           <li
@@ -52,9 +52,13 @@ export default function BottomNav() {
       <div>
         {loggedIn && (
           <details className="dropdown">
-            <img src="" alt="" />
-            <summary className="m-1 btn sm:text-[.95rem]">Dilansh</summary>
-            <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+            <summary className="m-1 btn sm:text-[.95rem]">
+              <span>
+                <img src="/users/kimya.jpeg" className="rounded-full h-10" alt="Kim Jong Un" />
+              </span>
+              Dilansh
+            </summary>
+            <ul className="p-2 shadow-lg shadow-black/40 menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
               <li>
                 <a>Profile</a>
               </li>
