@@ -35,7 +35,7 @@ export default function BottomNav() {
     console.log("paht", pathname);
   }, []);
   return (
-    <section className="grid gap-2 sm:grid-cols-6 grid-cols-3 items-center max-w-[90%] mx-auto mt-5">
+    <section className="grid gap-2 sm:grid-cols-6 grid-cols-2 items-center max-w-[90%] mx-auto mt-5">
       {navLinks?.map((item) => {
         return (
           <li

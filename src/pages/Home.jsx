@@ -19,7 +19,7 @@ export default function Home() {
           {/* Testimonail Section */}
           <Testmonial />
         </div>
-        <div className="mt-14 mb-96">
+        <div className="mt-14 mb-10">
           {/* Sponsors section */}
           <SponsorSlider />
         </div>

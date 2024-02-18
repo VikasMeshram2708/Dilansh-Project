@@ -1,6 +1,6 @@
 export default function Testmonial() {
   return (
-    <section className="grid sm:grid-cols-2 gap-5">
+    <section className="grid sm:grid-cols-2 md:grid-cols-1 gap-5">
       {/* left */}
       <div>
         <img className="rounded-2xl" src="/testimonials/test.png" alt="our client" />
