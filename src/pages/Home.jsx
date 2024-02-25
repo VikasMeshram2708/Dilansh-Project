@@ -7,8 +7,8 @@ export default function Home() {
     <section className="font-Poppins h-auto">
       <div className="mt-10">
         <img
-          className="w-full"
-          src="/landingPage/banner.jpeg"
+          className="object-cover mx-auto"
+          src="/landingPage/banner2.jpg"
           alt="home page banner"
         />
       </div>
