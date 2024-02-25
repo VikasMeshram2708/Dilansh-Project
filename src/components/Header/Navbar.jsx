@@ -3,7 +3,7 @@ import BottomNav from "./BottomNav";
 
 export default function Navbar() {
   return (
-    <nav className="">
+    <nav className="sticky top-0 z-40 bg-white pb-5">
       <div className="shadow-lg">
         <div className="max-w-[90%] mx-auto">
           <NavLink to="/" className="text-xl">

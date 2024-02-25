@@ -8,24 +8,27 @@ import slider1 from "../../../public/slider/slider1.jpg";
 import slider2 from "../../../public/slider/slider2.jpg";
 import slider3 from "../../../public/slider/slider3.jpg";
 import slider4 from "../../../public/slider/slider4.jpg";
+import slider5 from "../../../public/slider/slider5.jpeg";
+import slider6 from "../../../public/slider/slider6.jpeg";
+import slider7 from "../../../public/slider/slider7.jpeg";
 
 export default function SponsorSlider() {
   const sampleImages = [
     {
       id: 1,
-      url: slider1,
-    },
-    {
-      id: 2,
-      url: slider2,
-    },
-    {
-      id: 3,
       url: slider3,
     },
     {
+      id: 2,
+      url: slider5,
+    },
+    {
+      id: 3,
+      url: slider6,
+    },
+    {
       id: 4,
-      url: slider4,
+      url: slider7,
     },
   ];
   return (

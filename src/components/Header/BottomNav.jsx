@@ -44,9 +44,9 @@ export default function BottomNav() {
         <NavLink to="/">Home</NavLink>
       </li>
       <li
-        onMouseLeave={() => {
-          setToggle(false)
-        }}
+        // onMouseLeave={() => {
+        //   setToggle(false)
+        // }}
         onClick={() => {
           setToggle((prev) => !prev)
         }}
