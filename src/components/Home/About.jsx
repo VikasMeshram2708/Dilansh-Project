@@ -18,22 +18,10 @@ export default function About() {
       <div>
         <h1 className="sm:text-5xl font-semibold">About</h1>
         <p className="text-[1.3rem] mt-5 text-justify">
-          The MA program in Geopolitics and International Relations has a
-          comprehensive curriculum mainly dealing with the major Geopolitical
-          regions of the world and how India makes responses through its foreign
-          policy choices. The curriculum also combines and compliments
-          technology with strategy.
+          The Institute of Chinese Studies, Delhi (ICS) is one of the oldest research institutions on China and East Asia in India. With support from the Ministry of External Affairs, Government of India, it is the mandate of the ICS to develop a strategic vision for India’s dealings with China and to help adapt India’s priorities quickly and appropriately to address the research and educational demands arising from China’s emergence.
         </p>
         <p className="text-[1.3rem] mt-5 text-justify">
-          Students get a holistic understanding of the ongoing international
-          security discourse. The benefits are seen mainly in terms of getting a
-          quality education, comprehensive exposure and the freedom to choose
-          the area of research interests. The Department organizes special
-          sessions with the experts for a better understanding of the subject.
-          It also encourages, motivates and orients the young minds so that
-          India has a critical mass of strategic analysts and that helps in
-          evolving India’s perspectives on the contemporary world geopolitical
-          environment.
+          The ICS seeks to promote interdisciplinary study and research on China and the rest of East Asia with a focus on expertise in China’s domestic politics, international relations, economy, history, health, education, border studies, language and culture, and on India-China comparative studies. It also looks to fostering active links with business, media, government and non-governmental organizations in India through applied research, executive training programmes, and seminars and conferences, and to serve as a repository of knowledge and data grounded in first-hand research on Chinese politics, economy, international relations, society and culture.
         </p>
       </div>
 
