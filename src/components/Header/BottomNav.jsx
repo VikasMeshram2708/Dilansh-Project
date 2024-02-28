@@ -3,38 +3,10 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 
 export default function BottomNav() {
   const [toggle, setToggle] = useState(false);
-  const [loggedIn, setLoggedIn] = useState(false);
-  const navLinks = [
-    {
-      id: 1,
-      title: "Home",
-      redirectUrl: "/",
-    },
-    {
-      id: 2,
-      title: "About",
-      redirectUrl: "/about",
-    },
-    {
-      id: 3,
-      title: "Program List",
-      redirectUrl: "/program-list",
-    },
-    {
-      id: 4,
-      title: "Gallery",
-      redirectUrl: "/gallery",
-    },
-    {
-      id: 5,
-      title: "Contact Us",
-      redirectUrl: "/contact-us",
-    }
-  ];
   const { pathname } = useLocation();
   useEffect(() => {
     console.log("paht", pathname);
-  }, []);
+  }, [pathname]);
   return (
     <section className="grid gap-2 sm:grid-cols-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center max-w-[90%] mx-auto mt-5">
       <li
@@ -88,7 +60,7 @@ export default function BottomNav() {
       >
         <NavLink to="/contact-us">Contact Us</NavLink>
       </li>
-      <button type="button" className="bg-red-500 py-3 font-semibold sm:text-[1.2rem] rounded-md animate-pulse text-white">Admission Open</button>
+      <button type="button" className="bg-red-500 py-3 font-semibold sm:text-[1.2rem] rounded-md text-white">Admission Open</button>
       {/* User Container */}
       {/* <div>
         {loggedIn && (

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { NavLink } from "react-router-dom";
 import BottomNav from "./BottomNav";
 import { useEffect, useState } from "react";

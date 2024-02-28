@@ -1,18 +1,4 @@
 export default function About() {
-  const dateLinks = [
-    {
-      id: 1,
-      title: "7 Nov 2024",
-    },
-    {
-      id: 2,
-      title: "8 Nov 2024",
-    },
-    {
-      id: 3,
-      title: "9 Nov 2024",
-    },
-  ];
   return (
     <section>
       <div>
@@ -26,14 +12,15 @@ export default function About() {
       </div>
 
       {/* Event Section */}
-      <div className="mt-10 grid sm:grid-cols-3 gap-1">
-        {dateLinks?.map((item) => {
+      <div className="bg-black text-white rounded p-2 my-10">
+        <h1 className="font-Poppins text-[1.2rem]">Timeline of Events will be posted soon!</h1>
+        {/* {dateLinks?.map((item) => {
           return (
             <div key={item?.id} className="bgRed rounded-md">
               <h1 className="text-white sm:text-[1.3rem] font-semibold text-center p-2">{item?.title}</h1>
             </div>
           );
-        })}
+        })} */}
       </div>
     </section>
   );

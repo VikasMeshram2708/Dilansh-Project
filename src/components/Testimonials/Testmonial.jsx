@@ -1,12 +1,12 @@
 export default function Testmonial() {
   return (
-    <section className="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-5">
+    <section className="">
       {/* left */}
       <div>
-        <img className="rounded-2xl" src="/testimonials/test.png" alt="our client" />
+        <img className="rounded-2xl w-full" src="/testimonials/test.png" alt="our client" />
       </div>
       {/* right */}
-      <div className="flex flex-col justify-between">
+      {/* <div className="flex flex-col justify-between">
         {Array.from({ length: 6 }, (_, index) => {
           return (
             <div key={index}>
@@ -18,7 +18,7 @@ export default function Testmonial() {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </section>
   );
 }
