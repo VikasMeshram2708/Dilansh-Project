@@ -31,7 +31,7 @@ export default function BottomNav() {
           <div className="bg-white w-64 cursor-pointer shadow-black shadow-lg font-semibold p-3 z-40 absolute top-12 left-3">
             <li className="hover:bg-gray-100 pb-2 shadow mb-5">
               <Link to="https://www.manipal.edu/mu.html" target="_blank">
-                About Manipal
+                About MAHE
               </Link>
             </li>
             <li className="hover:bg-gray-100 pb-2 shadow">
