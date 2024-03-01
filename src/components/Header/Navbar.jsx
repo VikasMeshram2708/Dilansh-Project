@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [text, setText] = useState("");
-  const fullText = "Send your papers on test@gamil.com";
+  const fullText = "Send your papers on 17thaiccs@manipal.edu";
 
   useEffect(() => {
     let currentText = "";
