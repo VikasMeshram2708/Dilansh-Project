@@ -4,13 +4,10 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 // Import Swiper styles
 import "swiper/css";
-import slider1 from "../../../public/slider/slider1.jpg";
-import slider2 from "../../../public/slider/slider2.jpg";
 import slider3 from "../../../public/slider/slider3.jpg";
-import slider4 from "../../../public/slider/slider4.jpg";
-import slider5 from "../../../public/slider/slider5.jpeg";
-import slider6 from "../../../public/slider/slider6.jpeg";
 import slider7 from "../../../public/slider/slider7.jpeg";
+import slider8 from "../../../public/slider/slider8.jpeg";
+import slider9 from "../../../public/slider/slider9.jpeg";
 
 export default function SponsorSlider() {
   const sampleImages = [
@@ -20,11 +17,11 @@ export default function SponsorSlider() {
     },
     {
       id: 2,
-      url: slider5,
+      url: slider8,
     },
     {
       id: 3,
-      url: slider6,
+      url: slider9,
     },
     {
       id: 4,
