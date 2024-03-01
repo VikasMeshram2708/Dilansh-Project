@@ -5,8 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [text, setText] = useState("");
-  const fullText =
-    "Send your papers on test@gamil.com";
+  const fullText = "Send your papers on test@gamil.com";
 
   useEffect(() => {
     let currentText = "";
@@ -39,10 +38,14 @@ export default function Navbar() {
           </NavLink>
         </div>
       </div>
+      <h1 className="text-center my-5 font-semibold text-xl">
+        Organised by China Study Centre, Department of Geopolitics and
+        International Relations
+      </h1>
       <div className="bg-black text-white font-semibold p-2">
-        <div className="flex max-w-7xl items-center mx-auto tems-center justify-between">
+        <div className="flex max-w-7xl items-center mx-auto tems-center justify-center">
           {text}
-          <h1 className="bg-red-500 rounded text-white font-semibold w-56 p-2 text-center">What's New</h1>
+          {/* <h1 className="bg-red-500 rounded text-white font-semibold w-56 p-2 text-center">What's New</h1> */}
         </div>
       </div>
       <BottomNav />

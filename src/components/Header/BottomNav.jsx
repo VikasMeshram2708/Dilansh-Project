@@ -10,8 +10,9 @@ export default function BottomNav() {
   return (
     <section className="grid gap-2 sm:grid-cols-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center max-w-[90%] mx-auto mt-5">
       <li
-        className={`sm:text-[1.2rem] font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${pathname === "/" && "bgYellow"
-          } list-none text-black`}
+        className={`sm:text-[1.2rem] font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${
+          pathname === "/" && "bgYellow"
+        } list-none text-black`}
       >
         <NavLink to="/">Home</NavLink>
       </li>
@@ -20,14 +21,14 @@ export default function BottomNav() {
         //   setToggle(false)
         // }}
         onClick={() => {
-          setToggle((prev) => !prev)
+          setToggle((prev) => !prev);
         }}
-        className={`sm:text-[1.2rem] relative cursor-pointer font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${pathname === "/about" && "bgYellow"
-          } list-none text-black`}
+        className={`sm:text-[1.2rem] relative cursor-pointer font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${
+          pathname === "/about" && "bgYellow"
+        } list-none text-black`}
       >
         About
-        {
-          toggle &&
+        {toggle && (
           <div className="bg-white w-64 cursor-pointer shadow-black shadow-lg font-semibold p-3 z-40 absolute top-12 left-3">
             <li className="hover:bg-gray-100 pb-2 shadow mb-5">
               <Link to="https://www.manipal.edu/mu.html" target="_blank">
@@ -40,27 +41,37 @@ export default function BottomNav() {
               </Link>
             </li>
           </div>
-        }
+        )}
       </li>
       <li
-        className={`sm:text-[1.2rem] font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${pathname === "/program-list" && "bgYellow"
-          } list-none text-black`}
+        className={`sm:text-[1.2rem] font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${
+          pathname === "/program-list" && "bgYellow"
+        } list-none text-black`}
       >
         <NavLink to="/program-list">Program List</NavLink>
       </li>
       <li
-        className={`sm:text-[1.2rem] font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${pathname === "/gallery" && "bgYellow"
-          } list-none text-black`}
+        className={`sm:text-[1.2rem] font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${
+          pathname === "/gallery" && "bgYellow"
+        } list-none text-black`}
       >
         <NavLink to="/gallery">Gallery</NavLink>
       </li>
       <li
-        className={`sm:text-[1.2rem] font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${pathname === "/contact-us" && "bgYellow"
-          } list-none text-black`}
+        className={`sm:text-[1.2rem] font-semibold tracking-wider border-2 rounded-md border-yellow-500 p-2 text-center ${
+          pathname === "/contact-us" && "bgYellow"
+        } list-none text-black`}
       >
         <NavLink to="/contact-us">Contact Us</NavLink>
       </li>
-      <button type="button" className="bg-red-500 py-3 font-semibold sm:text-[1.2rem] rounded-md text-white">Admission Open</button>
+      <button
+        type="button"
+        className="bg-red-500 py-3 font-semibold sm:text-[1.2rem] rounded-md text-white"
+      >
+        <NavLink to="https://apply.manipal.edu" target="_blank">
+          Admission Open
+        </NavLink>
+      </button>
       {/* User Container */}
       {/* <div>
         {loggedIn && (

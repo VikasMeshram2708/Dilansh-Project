@@ -16,10 +16,6 @@ export default function Footer() {
             alt="manipal university"
           />
         </NavLink>
-        <h1 className="font-semibold text-xl">
-          Organised by China Study Centre, Department of Geopolitics and
-          International Relations
-        </h1>
         <div className="flex sm:gap-3 gap-5 mt-10">
           <h1 className="sm:text-[1.3rem] mb-5 font-semibold">Follow Us</h1>
           <NavLink to="https://www.facebook.com/girmanipal/" target="_blank">
